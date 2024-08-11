@@ -4,6 +4,7 @@ import java.io.*;
 
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
+import jakarta.ws.rs.GET;
 
 @WebServlet(name = "Test_servlet", value = "/Test_servlet")
 public class Test_servlet extends HttpServlet {

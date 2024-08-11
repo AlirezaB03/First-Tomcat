@@ -6,8 +6,7 @@
 </head>
 <body>
 <%
-out.println(new java.util.Date().toString());
-out.println("<br>");
+out.println(new java.util.Date().toString()+"<br>");
 out.println("hello "+request.getParameter("myName"));
 %>
 </body>
