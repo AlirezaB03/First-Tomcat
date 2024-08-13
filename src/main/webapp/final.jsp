@@ -7,7 +7,7 @@
 <body>
 <%
 out.println(new java.util.Date().toString()+"<br>");
-out.println("hello "+request.getParameter("myName"));
+out.println("hello final "+request.getParameter("myName"));
 %>
 </body>
 </html>
